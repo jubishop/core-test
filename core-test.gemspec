@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'core-test'
-  spec.version       = '0.1'
+  spec.version       = '0.2'
   spec.summary       = %q(Core test helpers.)
   spec.authors       = ['Justin Bishop']
   spec.email         = ['jubishop@gmail.com']

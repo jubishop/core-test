@@ -16,7 +16,10 @@ end
 
 ## Usage
 
-TODO: Describe usage.
+`include Test::Env`:
+
+- `github_actions?`: Indicates whether test is being run on Github Actions.
+- `test_only!`: Raises exception unless in `ENV['APP_ENV']` is `test`
 
 ## License
 

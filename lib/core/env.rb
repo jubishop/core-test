@@ -1,5 +1,9 @@
 module Test
   module Env
+    def self.github_actions?
+      return ENV.key?('CI')
+    end
+
     def github_actions?
       return ENV.key?('CI')
     end
